@@ -1,0 +1,25 @@
+{
+    // "python.autoComplete.extraPaths": [
+    //     "${workspaceFolder}/src"
+    // ],
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "files.associations": {
+        ".env.*": "dotenv"
+    },
+    // "python.analysis.extraPaths": [
+    //     "src",
+    //     ".venv",
+    //     "."
+    // ],
+    "python.envFile": ".env.local",
+    "python.pythonPath": "/home/parag/.venv/alyx/bin/python",
+    // "terminal.integrated.env.linux": {
+    //     "PYTHONPATH": ".venv/bin/python:${env:PYTHONPATH}"
+    // },
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.indexing": true,
+    "files.watcherExclude": {
+        "**/target": true
+    }
+}
